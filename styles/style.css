@@ -4,6 +4,27 @@ body{
 	font-size:14px;
 }
 
-.clearBoth{
+.clearBoth {
 	clear: both;
+}
+
+.bouton {
+	color: green;
+	margin: auto;
+	margin-top: 300px;
+	border: 3px solid green;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 30PX;
+	width: 200px;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.bouton:hover {
+	background: white;
+
 }
